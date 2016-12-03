@@ -1,0 +1,135 @@
+<manager id="1">
+  <staffs id="2">
+    <staff id="3">
+      <name></name>
+      <userID>Food Truck Manager</userID>
+      <role>Food Truck Manager</role>
+      <schedules id="4"/>
+    </staff>
+    <staff id="5">
+      <name>Kevin</name>
+      <userID>Food Truck Manager</userID>
+      <role>Food Truck Manager</role>
+      <schedules id="6"/>
+    </staff>
+    <staff id="7">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="8"/>
+    </staff>
+    <staff id="9">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="10"/>
+    </staff>
+    <staff id="11">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="12"/>
+    </staff>
+    <staff id="13">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="14"/>
+    </staff>
+    <staff id="15">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="16"/>
+    </staff>
+    <staff id="17">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="18"/>
+    </staff>
+    <staff id="19">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="20"/>
+    </staff>
+    <staff id="21">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="22"/>
+    </staff>
+    <staff id="23">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="24"/>
+    </staff>
+    <staff id="25">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="26"/>
+    </staff>
+    <staff id="27">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="28"/>
+    </staff>
+    <staff id="29">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="30"/>
+    </staff>
+    <staff id="31">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="32"/>
+    </staff>
+    <staff id="33">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="34"/>
+    </staff>
+    <staff id="35">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="36"/>
+    </staff>
+    <staff id="37">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="38"/>
+    </staff>
+    <staff id="39">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="40"/>
+    </staff>
+    <staff id="41">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="42"/>
+    </staff>
+    <staff id="43">
+      <name></name>
+      <userID></userID>
+      <role></role>
+      <schedules id="44"/>
+    </staff>
+  </staffs>
+  <schedules id="45"/>
+  <equipments id="46"/>
+  <foods id="47"/>
+  <menus id="48"/>
+  <orders id="49"/>
+</manager>

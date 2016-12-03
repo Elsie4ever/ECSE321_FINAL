@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "ca.mcgill.ecse321.ftms321"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile files('libs/FTMS.jar')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: '4.3.5.1'
+//    compile group: 'org.apache.httpcomponents' , name: 'fluent-hc' , version: '4.3.5'
+//    compile group: 'org.apache.httpcomponents' , names: 'httpcore' , version: '4.4.4'
+//    compile 'org.apache.httpcomponents:fluent-hc:4.5'
+//    compile 'org.apache.httpcomponents:httpclient:4.5'
+//    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+//    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+}

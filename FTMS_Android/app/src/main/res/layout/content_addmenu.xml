@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.mcgill.ecse321.ftms321.ADDMENU"
+    tools:showIn="@layout/app_bar_addmenu"
+    android:background="@drawable/cube">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b6766e6e"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD MENU"
+            android:id="@+id/textView84"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:weightSum="1"
+            android:layout_weight="0.41">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/menuError"
+                android:textColor="#ae0c0c"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"
+                    android:id="@+id/textView91"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp" />
+
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/menuName"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:"
+                    android:id="@+id/textView122"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/menuPrice"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ingredients:"
+                    android:id="@+id/textView123"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner3"
+                    android:layout_marginLeft="10dp"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity:"
+                    android:id="@+id/textView124"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="20dp" />
+
+                <EditText
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/menuQuantity"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10dp" />
+
+                <ImageButton
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/plus"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#ebe8e8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Ingredient"
+                    android:id="@+id/textView125"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Quantity"
+                    android:id="@+id/textView126"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Delete"
+                    android:id="@+id/textView127"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:background="#ffffff"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Potatos"
+                    android:id="@+id/textView128"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="1"
+                    android:id="@+id/textView129"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_gravity="center_vertical" />
+
+                <ImageButton
+                    android:layout_width="10dp"
+                    android:layout_height="17dp"
+                    android:id="@+id/imageButton5"
+                    android:src="@drawable/delete"
+                    android:layout_marginLeft="75dp"
+                    android:layout_weight="0.01" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="270dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:background="#ebe8e8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Salt"
+                    android:id="@+id/textView130"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="2"
+                    android:id="@+id/textView131"
+                    android:textColor="#010101"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="78dp"
+                    android:layout_gravity="center_vertical" />
+
+                <ImageButton
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton6"
+                    android:src="@drawable/delete"
+                    android:layout_marginLeft="75dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="SUBMIT CHANGE"
+                    android:id="@+id/button7"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:padding="1dp"
+                    android:background="#575151"
+                    android:textColor="#ffffff"
+                    android:onClick="clickAddMenu"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="CANCEL"
+                    android:id="@+id/button8"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="0dp"
+                    android:background="#575151"
+                    android:textColor="#ffffff"
+                    android:onClick="clickMenu"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

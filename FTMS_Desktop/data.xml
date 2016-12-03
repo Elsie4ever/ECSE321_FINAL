@@ -1,0 +1,15 @@
+<ftms.model.Manager id="1">
+  <staffs id="2">
+    <ftms.model.Staff id="3">
+      <name></name>
+      <userID>Food Truck Manager</userID>
+      <role>Food Truck Manager</role>
+      <schedules id="4"/>
+    </ftms.model.Staff>
+  </staffs>
+  <schedules id="5"/>
+  <equipments id="6"/>
+  <foods id="7"/>
+  <menus id="8"/>
+  <orders id="9"/>
+</ftms.model.Manager>

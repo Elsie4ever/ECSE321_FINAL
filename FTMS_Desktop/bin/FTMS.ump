@@ -1,0 +1,100 @@
+namespace ftms.model;
+
+class Staff{
+  id;
+  name;
+  role;
+  gender;
+  Integer age;
+  Integer tel;
+  * -> * Schedule schedules;
+}
+
+class Schedule{
+  id;
+  uid;
+  Time start;
+  Time end;
+}
+
+class Equipment{
+  name;
+  Integer quantity;
+  Float price;
+}
+
+class Food{
+  name;
+  Integer quantity;
+  Float price;
+}
+
+class Menu{
+  id;
+  name;
+  Float price;
+  Integer popularity;
+  * -> * Food foods;
+}
+
+class Order{
+  id;
+  Time time;
+  Boolean status;
+  * -> * Menu menus;
+}
+
+class Manager{
+  singleton;
+  1 -> * Staff staffs;
+  1 -> * Schedule schedules;
+  1 -> * Equipment equipments;
+  1 -> * Food foods;
+  1 -> * Menu menus;
+  1 -> * Order orders;
+}
+
+class Staff
+{
+  position 80 183 109 87;
+  position.association Schedule:schedules__Staff 56,87 0,49;
+}
+
+class Schedule
+{
+  position 232 313 114 103;
+}
+
+class Equipment
+{
+  position 420 228 117 87;
+}
+
+class Food
+{
+  position 577 346 117 87;
+}
+
+class Order
+{
+  position 908 178 109 71;
+  position.association Menu:menus__Order 43,71 128,67;
+}
+
+class Manager
+{
+  position 446 31 109 45;
+  position.association Manager__Staff:staffs 0,10 51,0;
+  position.association Manager__Schedule:schedules 8,45 53,0;
+  position.association Equipment:equipments__Manager 41,45 52,0;
+  position.association Food:foods__Manager 83,45 42,0;
+  position.association Manager__Menu:menus 110,39 41,0;
+  position.association Manager__Order:orders 110,10 42,0;
+}
+
+class Menu
+{
+  position 733 237 127 103;
+  position.association Food:foods__Menu 63,103 118,45;
+}
+//$?[End_of_model]$?

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FTMS321</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">PROFILE</string>
+    <string name="prompt_email">Email</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_staffview">STAFFVIEW</string>
+    <string name="title_activity_food">FOOD</string>
+    <string name="title_activity_addfood">ADDFOOD</string>
+    <string name="title_activity_equipment">EQUIPMENT</string>
+    <string name="title_activity_addequip">ADDEQUIP</string>
+    <string name="title_activity_menu">MENU</string>
+    <string name="title_activity_ftmsmenu">FTMSMENU</string>
+    <string name="title_activity_addmenu">ADDMENU</string>
+    <string name="title_activity_order">ORDER</string>
+    <string name="title_activity_addorder">ADDORDER</string>
+    <string name="title_activity_order__detail">ORDER_DETAIL</string>
+    <string name="title_activity_recipe">RECIPE</string>
+    <string name="title_activity_addstaff">ADDSTAFF</string>
+    <string name="title_activity_staffmain">STAFFMAIN</string>
+    <string name="title_activity_staffadd">STAFFADD</string>
+    <string name="title_activity_orderdetail">ORDERDETAIL</string>
+    <string name="title_activity_orderadd">ORDERADD</string>
+    <string name="title_activity_menu__recipe">MENU_RECIPE</string>
+</resources>
